@@ -1,0 +1,14 @@
+esphome:
+  name: presure-log
+  platform: ESP8266
+  board: d1_mini
+
+<<: !include secrets.yaml
+
+captive_portal:
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+
